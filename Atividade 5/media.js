@@ -6,4 +6,4 @@ const terceiraNota = prompt("Digite a terceira nota")
 
 const media = (parseFloat(primeiraNota) + parseFloat(segundaNota) + parseFloat(terceiraNota)) / 3
 
-alert("O aluno " + nomeAluno + " teve a média " + media)
+alert("O aluno " + nomeAluno + " 	teve a média " + media)

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+
+    <!-- Bootstrap Js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/996973c893.js"></script>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="container navigation pt-3">
+      <div class="row">
+        <div class="col-6 d-flex justify-content-start align-items-center">
+          <i class="fas fa-code fa-2x text-warning pb-3"></i>
+          <h5 class="d-inline pl-2 text-white">Portfolio</h5>
+        </div>
+        <div class="col-6 pt-2">
+          <div
+            class="row text-center p-0 d-flex justify-content-end align-items-center"
+          >
+            <div class="col-3">
+              <a href="#about" class="text-white navigation-link">Sobre</a>
+            </div>
+            <div class="col-3">
+              <a href="#projects" class="text-white navigation-link"
+                >Projetos</a
+              >
+            </div>
+            <div class="col-3">
+              <a href="#social-media" class="text-white navigation-link"
+                >Redes Sociais</a
+              >
+            </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="main-container container">
+      <div class="row main_row">
+        <div class="col-6">
+          <h2 class="text-white">Olá, eu sou</h2>
+          <h1 class="text-warning m-heading">Gustavo Doyle</h1>
+          <h2 class="text-white">Estudante de Análise e Desenvolvimento de Sistemas</h2>
+        </div>
+        <div class="col-6">
+          <img
+            src="./images/eu.png"
+            class="img-fluid"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about" class="container about p-5">
+      <div class="row">
+        <div class="col-6">
+          <img src="./images/about_img.svg" class="img-fluid" />
+        </div>
+        <div class="col-6 pl-5 pt-5 pb-5 text-white">
+          <h3 class="text-warning">Sobre:</h3>
+          <h1 class="m-heading">Um pouco sobre mim</h1>
+          <p>
+            Formado em Cinema e hoje estudante de Análise e Desenvolvimento de Sistemas 
+            <b class="text-warning">sempre evoluindo</b> novos ambientes de trabalho
+            ou de estudo não é barreira para evolução constante.
+          </p>
+          <br />
+          <p>
+            Hoje "estou estágiario" na Alelo, empresa  de serviços financeiros,
+             especializada em benefícios, incentivos e gestão de despesas corporativas.
+           <b class="text-warning">Trabalhando com métodos agéis</b>, e constante acompanhamento
+           e desenvolvimento contínuo de uma aplicação da companhia.
+            <b class="text-warning">Acompanhando métricas</b> para monitoramento 24/7 da 
+            aplicação que sou repsonsável
+          </p>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div id="projects" class="container mt-5 pt-5">
+      <h1 class="text-warning mb-3 pb-2">Meus Projetos</h1>
+      <div class="row">
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./images/prova.png"
+              class="card-img-top"
+              style="height: 13rem;"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Média de notas </h5>
+              <p class="card-text">
+                Usuario entra com nome e três notas e a aplicação faz a média e retorna para o usuario
+              </p>
+              <a href="./media.html" class="btn btn-warning">Veja o projeto</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./images/jokenpo.png"
+              class="card-img-top img-fluid"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Pedra,  papel e tesoura</h5>
+              <p class="card-text">
+                Usuario escolhe dentre as opções de Pedra, Papel e tesoura e tenta vencer a máquina
+              </p>
+              <a href="./papel/index.html" class="btn btn-warning">Veja o projeto</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./images/regua.png"
+              class="card-img-top"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Maior número</h5>
+              <p class="card-text">
+              Usuario deve entrar com três números e a aplicação retornará o maior deles
+              </p>
+              <a href="./maior/index.html" class="btn btn-warning">Veja o projeto</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./images/pesquisa.png"
+              class="card-img-top"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Pesquisa</h5>
+              <p class="card-text">
+Usuario entra com dados  dos espectadores de uma hipotética palestra, aplicação  retorna  estatísticas
+              </p>
+              <a href="./pesquisa/pesquisa.html" class="btn btn-warning">Veja o projeto</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./images/tamanho.png"
+              class="card-img-top"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Mudando o tamanho</h5>
+              <p class="card-text">
+Usuario entra com um texto e pode mudar de minúsculo ou maiúsculo
+              </p>
+              <a href="./Atividade11.html" class="btn btn-warning">Veja o projeto</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./images/janela.png"
+              class="card-img-top"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Eventos com a janela</h5>
+              <p class="card-text">
+Usuario pode interagir com a janela, se clicar ela quebra, ao passar o mouse ela abre
+              </p>
+              <a href="./Atividade 10/Atividade10.html" class="btn btn-warning">Veja o projeto</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Social Media Section -->
+    <div id="social-media" class="container-fluid">
+      <div class="container text-white py-5">
+        <h4 class="text-warning">Redes Sociais</h4>
+        <h1 class="m-heading">Vamos ser amigos </h1>
+        <div class="row pt-5">
+          <div class="col-3 media_link btn" href="#">
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <a href="https://www.linkedin.com/in/gustavo-doyle-588090a6/" target="_blank" class="btn btn-warning">Linkedin</a> 
+              </div>
+              <div class="col-6 d-flex justify-content-end align-items-center">
+                <i class="fab fa-linkedin-in fa-2x text-secondary"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-3 media_link btn">
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <a href="https://github.com/GustDoyle" target="_blank" class="btn btn-warning">GitHub</a>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-items-center">
+                <i class="fab fa-github fa-2x text-secondary"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-3 media_link btn">
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <a href="https://www.youtube.com/user/GusDoyle/" target="_blank" class="btn btn-warning">Youtube</a>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-items-center">
+                <i class="fab fa-youtube fa-2x text-secondary"></i>
+              </div>
+            </div>
+          </div>
+
+          
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container text-muted text-center py-3 mt-5">
+        <h5>
+          Copyright &copy; 2020 |
+          <a class="text-warning text-decoration-none" href="#about"
+            >Gustavo Doyle</a
+          >
+        </h5>
+      </div>
+    </footer>
+  </body>
+</html>
